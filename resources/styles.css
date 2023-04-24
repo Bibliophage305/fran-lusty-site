@@ -64,8 +64,8 @@ body {
     font-family: Gotham;
 }
 
-.release-date {
-    font-size: 0.8em;
+.align-center {
+    text-align: center;
 }
 
 .align-right {
