@@ -1,0 +1,147 @@
+:root {
+    --dark: #06090e;
+    --grey: #3f606b;
+    --dark-blue: #003783;
+    --light-blue: #006083;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: linear-gradient(-45deg, var(--dark), #001027);
+}
+
+body {
+    font-size: 5vmin;
+}
+
+.preload * {
+    transition: none !important;
+}
+
+@font-face {
+    font-family: Exthing;
+    src: url("fonts/Exthing.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url("fonts/Gotham-Medium.otf") format("opentype");
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+#page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#logo {
+    max-width: 70vw;
+    max-height: 30vh;
+}
+
+.font-primary {
+    font-family: Exthing;
+}
+
+.font-secondary {
+    font-family: Gotham;
+}
+
+.release-date {
+    font-size: 0.8em;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+.flex-vertical {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-right {
+    justify-content: flex-end;
+}
+
+.gap-3 {
+    gap: 3rem;
+}
+
+.gap-5 {
+    gap: 5rem;
+}
+
+.colour-white {
+    color: white;
+}
+
+.colour-dark {
+    color: var(--dark);
+}
+
+.colour-grey {
+    color: var(--grey);
+}
+
+.colour-light-blue {
+    color: var(--light-blue);
+}
+
+.colour-dark-blue {
+    color: var(--dark-blue);
+}
+
+i {
+    transition: color .2s;
+}
+
+i:hover {
+    color: var(--dark-blue);
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pt-3 {
+    padding-top: 3rem;
+}
+
+.pr-3 {
+    padding-right: 3rem;
+}
+
+.pb-3 {
+    padding-bottom: 3rem;
+}
+
+.pb-5 {
+    padding-bottom: 5rem;
+}
