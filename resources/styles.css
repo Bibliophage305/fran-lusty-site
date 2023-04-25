@@ -79,6 +79,7 @@ a:hover {
 
 #page-container {
     top: 0;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -112,7 +113,7 @@ a:hover {
 
 #single-cover {
     min-width: 30vw;
-    max-width: 600px;
+    max-width: min(90vw, 600px);
 }
 
 .align-center {
