@@ -79,7 +79,6 @@ a:hover {
 
 #page-container {
     top: 0;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
